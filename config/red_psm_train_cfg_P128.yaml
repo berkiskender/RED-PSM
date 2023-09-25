@@ -1,0 +1,32 @@
+# RED-PSM training parameters
+K_sweep: [6]  # PSM orders
+d_sweep: [9]  # z (temporal latent representation) dimensions
+num_epoch: 201  # Number of outer iterations for bilinear RED-ADMM
+num_primal_iter: 25  # Number of inner GD updates for the primal PSM components
+num_red_iter: 1  # Number of inner efficient RED updates for f 
+lr_primal: 5.0e-3  # The learning rate of the PSM updates
+temporal_basis: ['spline']  # ['linear', 'spline', 'dense', 'gen']
+xi_sweep: [1.0e-6]  # Temporal Frobenius norm penalty weight
+lmbda_sweep: [2.0e-4]  # RED regularization weights, walnut: 5e-5
+beta_sweep: [2.0e-4]  # Augmented Lagrangian weights
+chi_sweep: [1.0e-6]  # Spatial Frobenius norm penalty weight, default: same w xi
+temporal_mode: 'z'  # ['z', 'psi'], default: z
+verbose_freq: 500
+acc_compute_freq: 10  # Number of iterations between accuracy computations
+
+denoiser_type: 'full_img'  # ['full_img', 'patch_based', 'patch_based_patchloss']
+pSize_sweep: [128]  # B=128 for 'full_img'
+pStride_sweep: [1]  # S=1 for 'full_img'
+num_layers_sweep: [6]  # 6 layers for 'full_img' denoiser walnut
+num_channels: 64  # default: 64 full-img walnut
+noise_est_type: 'residual'  # 'direct' or 'residual'. direct for full-img walnut
+denoiser_epochs: 500  # 500 for walnut full-img, 200 or 100 for cardiac full img
+
+criterion: 'MSE'
+
+# Initialization types for the basis functions. Available: ['random', 'learned']
+temp_init_type: 'learned'
+f_init_type: 'learned'
+spatial_init_type: 'learned'
+
+rep: 1  # Number of simultaneous projections. walnut & comp. obj: 1, cardiac: 4.
