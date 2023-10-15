@@ -33,14 +33,16 @@ Different forward models for different imaging modalities with dimensions ```[me
 ## Citation
 If you find RED-PSM useful for your research, please cite:
 
-*Iskender, B., Klasky, M. L., & Bresler, Y. (2023). RED-PSM: Regularization by Denoising of Partially Separable Models for Dynamic Imaging. arXiv preprint arXiv:2304.03483.*
+*B. Iskender, M. L. Klasky, and Y. Bresler, “RED-PSM: Regularization by denoising of partially separable models for dynamic imaging,” in Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), October 2023, pp. 10 595–10 604.*
 
 ```
-@article{iskender2023red,
-  title={RED-PSM: Regularization by Denoising of Partially Separable Models for Dynamic Imaging},
-  author={Iskender, Berk and Klasky, Marc L and Bresler, Yoram},
-  journal={arXiv preprint arXiv:2304.03483},
-  year={2023}
+@InProceedings{Iskender_2023_ICCV,
+    author    = {Iskender, Berk and Klasky, Marc L. and Bresler, Yoram},
+    title     = {{RED-PSM:} {R}egularization by Denoising of Partially Separable Models for Dynamic Imaging},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {10595-10604}
 }
 ```
 
