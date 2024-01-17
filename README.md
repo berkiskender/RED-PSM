@@ -36,14 +36,15 @@ If you find RED-PSM useful for your research, please cite:
 *B. Iskender, M. L. Klasky, and Y. Bresler, “RED-PSM: Regularization by denoising of partially separable models for dynamic imaging,” in Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), October 2023, pp. 10 595–10 604.*
 
 ```
-@InProceedings{Iskender_2023_ICCV,
-    author    = {Iskender, Berk and Klasky, Marc L. and Bresler, Yoram},
-    title     = {{RED-PSM:} {R}egularization by Denoising of Partially Separable Models for Dynamic Imaging},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2023},
-    pages     = {10595-10604}
-}
+@INPROCEEDINGS{iskender2023red,
+  author={Iskender, Berk and Klasky, Marc L. and Bresler, Yoram},
+  booktitle={2023 IEEE/CVF International Conference on Computer Vision (ICCV)}, 
+  title={RED-PSM: Regularization by Denoising of Partially Separable Models for Dynamic Imaging}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={10561-10570},
+  doi={10.1109/ICCV51070.2023.00972}}
 ```
 
 ## Contact
