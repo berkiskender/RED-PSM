@@ -1,6 +1,6 @@
 # RED-PSM
 
-Implementation of *RED-PSM: Regularization by Denoising of Partially Separable Models for Dynamic Imaging* ([ICCV 2023](https://openaccess.thecvf.com/content/ICCV2023/papers/Iskender_RED-PSM_Regularization_by_Denoising_of_Partially_Separable_Models_for_Dynamic_ICCV_2023_paper.pdf), [IEEE Xplore](https://ieeexplore.ieee.org/document/10378007), [arXiv (Extended)](https://arxiv.org/abs/2304.03483), [5 min video](https://youtu.be/jdWdY9XJ0Ew))
+Implementation of *RED-PSM: Regularization by Denoising of Partially Separable Models for Dynamic Imaging* ([IEEE TCI 2024](https://ieeexplore.ieee.org/document/10535218), [arXiv](https://arxiv.org/abs/2304.03483), [ICCV 2023](https://openaccess.thecvf.com/content/ICCV2023/papers/Iskender_RED-PSM_Regularization_by_Denoising_of_Partially_Separable_Models_for_Dynamic_ICCV_2023_paper.pdf), [5 min video](https://youtu.be/jdWdY9XJ0Ew))
 
 *Berk Iskender, Marc L. Klasky, Yoram Bresler*
 
