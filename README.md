@@ -1,6 +1,6 @@
 # RED-PSM
 
-Implementation of *RED-PSM: Regularization by Denoising of Partially Separable Models for Dynamic Imaging* ([IEEE TCI](https://ieeexplore.ieee.org/document/10535218), [arXiv](https://arxiv.org/abs/2304.03483), [ICCV 2023](https://openaccess.thecvf.com/content/ICCV2023/papers/Iskender_RED-PSM_Regularization_by_Denoising_of_Partially_Separable_Models_for_Dynamic_ICCV_2023_paper.pdf), [5 min video](https://youtu.be/jdWdY9XJ0Ew))
+Implementation of *RED-PSM: Regularization by Denoising of Factorized Low Rank Models for Dynamic Imaging* ([IEEE TCI](https://ieeexplore.ieee.org/document/10535218), [arXiv](https://arxiv.org/abs/2304.03483), [ICCV 2023](https://openaccess.thecvf.com/content/ICCV2023/papers/Iskender_RED-PSM_Regularization_by_Denoising_of_Partially_Separable_Models_for_Dynamic_ICCV_2023_paper.pdf), [5 min video](https://youtu.be/jdWdY9XJ0Ew))
 
 *Berk Iskender, Marc L. Klasky, Yoram Bresler*
 
@@ -36,15 +36,16 @@ If you find RED-PSM useful for your research, please cite:
 *B. Iskender, M. L. Klasky and Y. Bresler, "RED-PSM: Regularization by Denoising of Partially Separable Models for Dynamic Imaging," 2023 IEEE/CVF International Conference on Computer Vision (ICCV), Paris, France, 2023, pp. 10561-10570, doi: 10.1109/ICCV51070.2023.00972.*
 
 ```
-@INPROCEEDINGS{iskender2023red,
+@ARTICLE{10535218,
   author={Iskender, Berk and Klasky, Marc L. and Bresler, Yoram},
-  booktitle={2023 IEEE/CVF International Conference on Computer Vision (ICCV)}, 
-  title={RED-PSM: Regularization by Denoising of Partially Separable Models for Dynamic Imaging}, 
-  year={2023},
-  volume={},
+  journal={IEEE Transactions on Computational Imaging}, 
+  title={RED-PSM: Regularization by Denoising of Factorized Low Rank Models for Dynamic Imaging}, 
+  year={2024},
+  volume={10},
   number={},
-  pages={10561-10570},
-  doi={10.1109/ICCV51070.2023.00972}}
+  pages={832-847},
+  keywords={Imaging;Image reconstruction;Convergence;Tomography;Magnetic resonance imaging;Computational modeling;Heuristic algorithms;Dynamic imaging;regularization by denoising;low rank modeling},
+  doi={10.1109/TCI.2024.3402347}}
 ```
 
 ## Contact
