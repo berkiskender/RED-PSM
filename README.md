@@ -49,4 +49,4 @@ If you find RED-PSM useful for your research, please cite:
 ```
 
 ## Contact
-In case of any questions, feel free to contact via email: Berk Iskender, berki2@illinois.edu.
+In case of any questions, feel free to contact via email: Berk Iskender, berk.iskender9@gmail.com.
